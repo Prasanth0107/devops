@@ -20,9 +20,9 @@
         <sonar.login>sqp_ee60244f58bb57abe4bccfbcf177a686037bf14a</sonar.login> -->
 
           <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-          <sonar.organization>binaryops</sonar.organization>  
-          <sonar.projectKey>binaryops_javaapps</sonar.projectKey>
-          <sonar.login>274dad7664a55ece78dcfeb5f17862d2eb7b7e0a</sonar.login>
+          <sonar.organization>prasanth-io</sonar.organization>  
+          <sonar.projectKey>prasanth-io_devops</sonar.projectKey>
+          <sonar.login>1cd0d87e777ebb8fd8bd8b81666804b7838247e6</sonar.login>
     </properties>
 
        
