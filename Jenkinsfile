@@ -9,7 +9,7 @@ pipeline {
     //        steps {
     //            sh 'mvn verify sonar:sonar'
     //        }
-    //    }
+        }
         stage('Stage-1 : Clean') { 
             steps {
                 sh 'mvn clean'
@@ -44,10 +44,10 @@ pipeline {
             steps {
                 sh 'mvn install'
             }
+        }
             stage('Stage-8 : Deploy') { 
             steps {
                 sh 'mvn deploy'
             }
         }
     }
-}
